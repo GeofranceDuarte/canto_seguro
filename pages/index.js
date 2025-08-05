@@ -28,7 +28,8 @@ export default function Home() {
     });
     setResult({ medias, probs });
   };
-  <section style="padding: 2rem; font-family: Arial, sans-serif;">
+  return (
+    <section style="padding: 2rem; font-family: Arial, sans-serif;">
   <h2 style="text-align: center; font-size: 2rem; margin-bottom: 1rem;">🌍 Ligas com Oportunidade – Cantos Seguros</h2>
 
   <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
@@ -66,8 +67,6 @@ export default function Home() {
 
   </div>
 </section>
-
-  return (
     <main className="max-w-2xl mx-auto p-4 space-y-4">
       <h1 className="text-2xl font-bold text-center">Canto Seguro</h1>
       <div className="space-y-2">
