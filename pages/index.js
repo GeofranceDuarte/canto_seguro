@@ -57,4 +57,43 @@ export default function Home() {
       )}
     </main>
   );
+<section style="padding: 2rem; font-family: Arial, sans-serif;">
+  <h2 style="text-align: center; font-size: 2rem; margin-bottom: 1rem;">🌍 Ligas com Oportunidade – Cantos Seguros</h2>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center;">
+
+    <!-- Bloco 1: Mercado de Escanteios -->
+    <div style="flex: 1; min-width: 320px; background-color: #e3f2fd; padding: 1.5rem; border-radius: 12px;">
+      <h3 style="color: #1565c0;">📈 Mercado de Escanteios</h3>
+      <ul style="list-style: none; padding-left: 0; font-size: 1rem;">
+        <li>🇵🇱 <strong>Polônia – I Liga</strong> (~11.26)</li>
+        <li>🏴 <strong>Escócia – Premiership</strong> (~11.25)</li>
+        <li>🇱🇻 <strong>Letônia – 1. Liga</strong> (~11.11)</li>
+        <li>🇳🇴 <strong>Noruega – Division 1</strong> (~11.08)</li>
+        <li>🇸🇪 <strong>Suécia – Allsvenskan</strong> (~10.90)</li>
+        <li>🇮🇸 <strong>Islândia – Urvalsdeild</strong> (~12.1)</li>
+        <li>🇪🇪 <strong>Estônia – Meistriliiga</strong> (~11.3)</li>
+        <li>🌊 <strong>OFC Champions League</strong> (~10)</li>
+        <li>🌏 <strong>Qualificação Copa – Ásia</strong> (~7–8)</li>
+      </ul>
+    </div>
+
+    <!-- Bloco 2: Mercado de Gols -->
+    <div style="flex: 1; min-width: 320px; background-color: #f1f8e9; padding: 1.5rem; border-radius: 12px;">
+      <h3 style="color: #33691e;">⚽ Mercado de Gols (Over 1.5+)</h3>
+      <ul style="list-style: none; padding-left: 0; font-size: 1rem;">
+        <li>🇮🇸 <strong>Islândia – 1. Deild Karla</strong> (~3.1)</li>
+        <li>🇫🇮 <strong>Finlândia – Ykkönen</strong> (~2.8)</li>
+        <li>🇸🇪 <strong>Suécia – Superettan</strong> (~2.7)</li>
+        <li>🇦🇱 <strong>Albânia – Kategoria Superiore</strong> (~2.6)</li>
+        <li>🇱🇻 <strong>Letônia – Virsliga</strong> (~2.6–2.8)</li>
+        <li>🇪🇪 <strong>Estônia – Meistriliiga</strong> (~2.5)</li>
+        <li>🌊 <strong>OFC Champions League</strong> (~2.6–3.2)</li>
+        <li>🇧🇾 <strong>Bielorrússia – Vysshaya Liga</strong> (~2.5–2.7)</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
 }
